@@ -1,0 +1,49 @@
+//boilerplate code
+
+public class JavaBasis {
+public static void main(String args[]) {
+// System.out.print("Hello World\n"); // ln se line ka space
+// System.out.println("1 2 3 4 5");
+// System.out.print("Hello Ayushka\n ");
+// System.out.print("Hello Ayushka");
+
+System.out.println("****");
+System.out.println("***");
+System.out.println("**");
+System.out.println("*");
+ }
+}
+
+
+*************************VARIABLES IN JAVA**********************
+public class JavaBasis {
+public static void main(String args[]) {
+int a = 10;
+int b = 5;
+System.out.println(a);
+System.out.println(b);
+System.out.println("a");
+
+String name = "Tony Stark";
+System.out.println(name);
+
+a = b;
+System.out.println(a);
+}
+}
+
+****************DATATYPES IN JAVA***************************
+public class JavaBasis {
+public static void main(String args[]) {
+byte b = 8;
+System.out.println(b);
+char ch = 'a';
+System.out.println(ch);
+boolean var = false;
+float price = 10.5;
+int number = 25;
+// long
+// double
+short n = 240;
+}
+}
