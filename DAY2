@@ -1,10 +1,31 @@
-* //SUM OF A & B
- * public class JavaBasis {
- * public static void main(String args[]) {
- * // code to calculate sum
- * int a = 5;
- * int b = 20;
- * int sum = a + b;
- * System.out.println(sum);
- * }
- * }
+ //SUM OF A & B
+ public class JavaBasis {
+ public static void main(String args[]) {
+ // code to calculate sum
+  int a = 5;
+  int b = 20;
+  int sum = a + b;
+  System.out.println(sum);
+   }
+  }
+
+
+//Taking inputs in Java
+import java.util.*;
+
+public class inputsinjava {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        // String input = sc.next();
+        // System.out.println(input);
+
+        // String name = sc.nextLine();
+        // System.out.println(name);
+
+        int number = sc.nextInt();
+        System.out.println(number);
+
+        float price = sc.nextFloat();
+        System.out.println(price);
+    }
+}
