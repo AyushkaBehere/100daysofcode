@@ -24,3 +24,4 @@ public class inputsinjava {
         System.out.println(area);
     }
 }
+
