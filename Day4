@@ -1,0 +1,19 @@
+//TYPE CONVERSION
+
+import java.util.*;
+
+public class inputsinjava {
+    public static void main(String args[]) {
+        // int a = 25;
+        // long b = a; // can be converted
+
+        // // long a = 25;
+        // // int b = a; // cannot be converted
+        // System.out.println(b);
+
+        Scanner sc = new Scanner(System.in);
+        float number = sc.nextInt();
+        System.out.println(number);
+    }
+
+}
