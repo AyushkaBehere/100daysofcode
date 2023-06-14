@@ -15,3 +15,32 @@ public class inputsinjava {
         System.out.println(number2);
     }
 }
+
+//Type Promotion in Expressions
+import java.util.*;
+
+public class inputsinjava {
+    public static void main(String args[]) {
+        short a = 5;
+        byte b = 25;
+        char c = 'c';
+        byte t = (byte) (a + b + c); // w/o (byte) it cant convert from int to byte
+        System.out.println(t);
+    }
+}
+
+//Example 2
+import java.util.*;
+
+public class inputsinjava {
+    public static void main(String args[]) {
+        int a = 10;
+        float b = 20.25f;
+        long c = 25;
+        double d = 30; // by default all the above are converted to double since its the largest data
+                       // type)
+        double ans = a + b + c + d;
+        System.out.println(ans);
+
+    }
+}
