@@ -1,0 +1,75 @@
+// ARITHMETIC OPERATORS
+
+// import java.util.*;
+
+// public class Operators {
+
+// public static void main(String args[]) {
+// int A = 10;
+// int B = 5;
+// System.out.println("modulo(rem.) = " + (A % B));
+// }
+// }
+
+// UNARY OPERATORS
+
+// import java.util.*;
+
+// public class Operators {
+// public static void main(String args[]) {
+// // int a = 10;
+// // int b = ++a;
+// // System.out.println(a);
+// // System.out.println(b);
+
+// // int a = 10;
+// // int b = a++;
+// // System.out.println(a);
+// // System.out.println(b);
+
+// // int a = 10;
+// // int b = --a;
+// // System.out.println(a);
+// // System.out.println(b);
+
+// int a = 10;
+// int b = a--;
+// System.out.println(a);
+// System.out.println(b);
+
+// }
+// }
+
+// RELATIONAL OPERATORS
+
+// import java.util.*;
+
+// public class Operators {
+// public static void main(String args[]) {
+// // int A = 10;
+// // int B = 5;
+// int A = 10;
+// int B = 10;
+// System.out.println(A <= B);
+// }
+// }
+
+// Assignment Operators 
+import java.util.*;
+
+public class Operators {
+    public static void main(String args[]) {
+        // int A = 10;
+        // // A = A + 10;
+        // A += 10;
+        int B = 5;
+        // B = B -5;
+        // B *= 5; // This means B = B * 5
+        // B /= 5; // This means B = B / 5
+        B %= 5; // B = B% 5
+
+        // System.out.println(A);
+        System.out.println(B);
+
+    }
+}
