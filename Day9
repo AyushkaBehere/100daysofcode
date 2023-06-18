@@ -1,0 +1,86 @@
+// Variables and Data Types questions practice
+// Question 1
+// import java.util.*;
+
+// public class Operators {
+// public static void main(String args[]) {
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter the first no.");
+// int a = sc.nextInt();
+// System.out.println("Enter the second no.");
+// int b = sc.nextInt();
+// System.out.println("Enter the third no.");
+// int c = sc.nextInt();
+
+// int d = ((a + b + c) / 3);
+// System.out.println("Average of the 3 nos. is = " + d);
+// // System.out.print("Average of the 3 nos. is = ");
+// // System.out.println(d);
+// }
+// }
+
+// Question 2
+// import java.util.*;
+
+// public class Operators {
+// public static void main(String args[]) {
+// Scanner sc = new Scanner(System.in);
+// System.out.print("Side of Square = ");
+// int a = sc.nextInt();
+// int b = (a * a);
+// System.out.println("Area of Square = " + b);
+
+// }
+// }
+
+// Question 3
+// import java.util.*;
+
+// public class Operators {
+// public static void main(String args[]) {
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter cost of Pencil = ");
+// Float a = sc.nextFloat();
+// System.out.println("Enter cost of Eraser = ");
+// Float b = sc.nextFloat();
+// System.out.println("Enter cost of Pen = ");
+// Float c = sc.nextFloat();
+// Float d = (a + b + c);
+// System.out.println("Total Bill = " + d);
+// // float e = 0.18f * d;
+// Float e = (((18f / 100f)) * d);
+// System.out.println("Total gst = " + e);
+// Float f = (e + d);
+// System.out.println("Total bill including gst = " + f);
+// }
+// }
+
+// Question 4
+// import java.util.*;
+
+// public class Operators {
+// public static void main(String args[]) {
+// byte b = 4;
+// char c = 'a';
+// short s = 512;
+// int i = 1000;
+// float f = 3.14f;
+// double d = 99.9954;
+
+// System.out.println((f * b) + (i % c) - (d * s));
+// }
+// } variable will be of double type because of type conversion
+
+// Ques 5
+// import java.util.*;
+
+// public class Operators {
+// public static void main(String args[]) {
+// int $ = 24;
+// System.out.println($);
+// }
+// } //NO ERRORS
+// Names of variables are called identifiers in Java. Identifier rule says,
+// identifiers can start with
+// any alphabet or underscore (“_”) or dollar (“$”).
+// According to the rule the given variable name is a valid identifier
