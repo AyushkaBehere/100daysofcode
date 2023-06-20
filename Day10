@@ -1,0 +1,71 @@
+// IF ELSE STATEMENTS
+// import java.util.*;
+
+// public class conditionalstat {
+// public static void main(String args[]) {
+// int age = 20;
+// if (age >= 18) {
+// System.out.println("adult : drive, vote");
+// }
+
+// if (age > 13 && age < 18) {
+// System.out.println("teenager");
+// }
+
+// else {
+// System.out.println("not adult");
+// }
+// }
+// }
+
+// Print the Largest of 2
+// import java.util.*;
+
+// public class conditionalstat {
+// public static void main(String args[]) {
+// int A = 6;
+// int B = 5;
+
+// if (A >= B) {
+// System.out.println("A is the largest");
+// } else {
+// System.out.println("B is the largest");
+
+// }
+// }
+// }
+
+// Print if a no. is Odd or Even
+// import java.util.*;
+
+// public class conditionalstat {
+// public static void main(String args[]) {
+// Scanner sc = new Scanner(System.in);
+// int number = sc.nextInt();
+
+// if (number % 2 == 0) {
+// System.out.println("EVEN");
+// } else {
+// System.out.println("ODD");
+// }
+
+// }
+// }
+
+// ELSE IF Statement
+import java.util.*;
+
+public class conditionalstat {
+    public static void main(String args[]) {
+        int age = 2;
+
+        if (age >= 18) {
+            System.out.println("Adult");
+        } else if (age >= 13 && age < 18) {
+            System.out.println("teenager");
+        } else {
+            System.out.println("child");
+        }
+
+    }
+}
