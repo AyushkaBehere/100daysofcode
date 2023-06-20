@@ -1,5 +1,5 @@
 // IF ELSE STATEMENTS
-// import java.util.*;
+ import java.util.*;
 
 // public class conditionalstat {
 // public static void main(String args[]) {
@@ -19,7 +19,7 @@
 // }
 
 // Print the Largest of 2
-// import java.util.*;
+ import java.util.*;
 
 // public class conditionalstat {
 // public static void main(String args[]) {
@@ -36,7 +36,7 @@
 // }
 
 // Print if a no. is Odd or Even
-// import java.util.*;
+ import java.util.*;
 
 // public class conditionalstat {
 // public static void main(String args[]) {
