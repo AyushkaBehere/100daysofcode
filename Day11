@@ -1,0 +1,132 @@
+// Income Tax Calculator
+// import java.util.*;
+
+// public class conditionalstat {
+// public static void main(String args[]) {
+// Scanner sc = new Scanner(System.in);
+// int income = sc.nextInt();
+// int tax;
+
+// if (income < 500000) {
+// tax = 0;
+// } else if (income >= 500000 && income < 1000000) {
+// tax = (int) (income * 0.2);
+// } else {
+// tax = (int) (income * 0.3);
+// }
+// System.out.println("your tax is :" + tax);
+
+// }
+// }
+
+// Print the largest of 3
+// import java.util.*;
+
+// public class conditionalstat {
+// public static void main(String args[]) {
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter A");
+// int a = sc.nextInt();
+// System.out.println("Enter B");
+// int b = sc.nextInt();
+// System.out.println("Enter C");
+// int c = sc.nextInt();
+
+// // int a = 7;
+// // int b = 3;
+// // int c = 6;
+
+// if (a >= b && a >= c) {
+// System.out.println("Largest is A");
+// } else if (b >= c) {
+// System.out.println("Largest is B");
+// } else {
+// System.out.println("Largest is C");
+// }
+// }
+// }
+
+// TERNARY Operator
+// import java.util.*;
+
+// public class conditionalstat {
+// public static void main(String args[]) {
+// int number = 8;
+
+// // ternary operator
+// String type = ((number % 2) == 0) ? "even" : "odd";
+// System.out.println(type);
+// }
+// }
+
+// Check if a student will Pass or Fail
+// import java.util.*;
+
+// public class conditionalstat {
+// public static void main(String args[]) {
+// int marks = 55;
+
+// String reportCard = marks >= 33 ? "PASS" : "FAIL";
+// System.out.println(reportCard);
+// }
+// }
+
+// SWITCH STATEMENTS
+// import java.util.*;
+
+// public class conditionalstat {
+// public static void main(String args[]) {
+// char ch = 'a';
+// switch (ch) {
+// case 'a':
+// System.out.println("Samosa");
+// break;
+// case 'c':
+// System.out.println("Burger");
+// break;
+// case 'b':
+// System.out.println("Mango Shake");
+// break;
+// default:
+// System.out.println("we face reality");
+
+// }
+// }
+// }
+
+// CALCULATOR USING SWITCH STATEMENT
+import java.util.*;
+
+public class conditionalstat {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a : ");
+        int a = sc.nextInt();
+        System.out.println("Enter b : ");
+        int b = sc.nextInt();
+        System.out.println("Enter Operator : ");
+        char operator = sc.next().charAt(0);
+
+        switch (operator) {
+            case '+':
+                System.out.println(a + b);
+                break;
+            case '-':
+                System.out.println(a - b);
+                break;
+            case '*':
+                System.out.println(a * b);
+                break;
+            case '/':
+                System.out.println(a / b);
+                break;
+            case '%':
+                System.out.println(a % b);
+                break;
+            default:
+                System.out.println("Wrong Operator");
+
+        }
+
+    }
+}
