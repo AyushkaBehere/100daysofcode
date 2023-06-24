@@ -1,0 +1,29 @@
+// DO WHILE loop
+// import java.util.*;
+
+// public class Loops {
+//     public static void main(String args[]) {
+//         int counter = 1;
+//         do {
+//             System.out.println("Hello World");
+//             counter++;
+//         } while (counter <= 10);
+//     }
+// }
+
+//BREAK STATEMENT--To exit the loop
+import java.util.*;
+
+public class Loops {
+    public static void main(String args[]) {
+        for (int i = 1; i <= 5; i++) {
+            if (i == 4) {
+                break;
+            }
+            System.out.println(i);
+        }
+
+        System.out.println("I am out of this loop");
+
+    }
+}
