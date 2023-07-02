@@ -1,1 +1,14 @@
-Day
+//FUNCTIONS
+public class functions {
+    public static void printHelloWorld() {
+        System.out.println("Hello World");
+        System.out.println("Hello Ayushka");
+        System.out.println("Hello UwU");
+
+    }
+
+    public static void main(String args[]) {
+        printHelloWorld(); // function call
+    }
+}
+
