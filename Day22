@@ -1,4 +1,4 @@
-// Find Product of a & b
+***************Find Product of a & b************************************
 import java.util.*;
 
 public class functions {
@@ -18,3 +18,27 @@ public class functions {
 
     }
 }
+
+
+*************CALL BY VALUE (copy of the value is sent from main function)***************
+// import java.util.*;
+
+// public class functions {
+
+// public static void swap(int a, int b) {
+// // swap
+// int temp = a;
+// a = b;
+// b = temp;
+
+// System.out.println("a = " + a);
+// System.out.println("b = " + b);
+// }
+
+// public static void main(String args[]) {
+// // swap- values exchange
+// int a = 5;
+// int b = 10;
+// swap(a, b);
+// }
+// }
