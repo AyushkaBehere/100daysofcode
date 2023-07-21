@@ -23,3 +23,22 @@ public class functions {
     }
 
 }
+
+//Find Binomial Coefficient
+import java.util.*;
+
+public class functions {
+    public static int factorial(int n) {
+        int f = 1;
+        for (int i = 1; i <= n; i++) {
+            f = f * i;
+        }
+
+        return f; // factorial of n
+    }
+
+    public static int binCoeff(int n, int r){
+        int fact_n
+    }
+}
+
