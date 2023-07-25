@@ -18,3 +18,8 @@ public class functions {
         System.out.println(isPrime(11));
     }
 }
+
+
+
+
+
