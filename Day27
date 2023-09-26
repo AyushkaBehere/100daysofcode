@@ -1,0 +1,110 @@
+// Question 1
+
+// import java.util.*;
+
+// public class conditnstatQues {
+// public static void main(String args[]) {
+// Scanner sc = new Scanner(System.in);
+// int a = sc.nextInt();
+
+// if (a > 0) {
+// System.out.println("Your number is Positive");
+// }
+
+// else if (a == 0) {
+// System.out.println("Not defined");
+// } else {
+// System.out.println("Number is Negative");
+// }
+// }
+// }
+
+// Question 2
+// import java.util.*;
+
+// public class conditnstatQues {
+// public static void main(String args[]) {
+// Scanner sc = new Scanner(System.in);
+// double a = sc.nextDouble();
+
+// if (a > 100) {
+// System.out.println("You have Fever");
+// } else {
+// System.out.println("No Fever");
+// }
+// }
+// }
+
+// QUESTION 3
+// import java.util.*;
+
+// public class conditnstatQues {
+// public static void main(String args[]) {
+// Scanner sc = new Scanner(System.in);
+// int a = sc.nextInt();
+
+// switch (a) {
+// case 1:
+// System.out.println("Monday");
+// break;
+// case 2:
+// System.out.println("Tuesday");
+// break;
+// case 3:
+// System.out.println("wednesday");
+// break;
+// case 4:
+// System.out.println("thursday");
+// break;
+// case 5:
+// System.out.println("friday");
+// break;
+// case 6:
+// System.out.println("saturday");
+// break;
+// case 7:
+// System.out.println("sunday");
+// break;
+
+// default:
+// System.out.println("Invalid ! ");
+// }
+
+// }
+// }
+
+// Question 4
+// import java.util.*;
+
+// public class conditnstatQues {
+// public static void main(String args[]) {
+// int a = 40, b = 36;
+// boolean x = (a < b) ? true : false;
+// int y = (a < b) ? a : b; // if true gives --> a
+
+// System.out.println(x);
+// System.out.println(y);
+// }
+// }
+
+// QUESTION 5
+import java.util.*;
+
+public class conditnstatQues {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+
+        if (a % 4 == 0 && a % 100 != 0) {
+            System.out.println("LEAP YEAR!");
+        } else if (a % 400 == 0) {
+            System.out.println("LEAP year");
+        } else if (a % 4 == 0 && a % 100 == 0 && a % 400 != 0) { // century years which are not leap years ie only div
+                                                                 // by 4
+            System.out.println("Not a Leap YEAR!");
+        } else {
+            System.out.println("Not a leap year");
+        }
+    }
+
+}
