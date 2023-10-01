@@ -32,7 +32,7 @@ public class Solution {
        
 }
 
-Q2
+//Q2
 import java.io.*;
 import java.math.*;
 import java.security.*;
