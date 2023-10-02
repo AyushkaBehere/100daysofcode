@@ -1,4 +1,4 @@
-//Question1
+//Question 1
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -32,7 +32,7 @@ public class Solution {
        
 }
 
-//Q2
+//Question 2
 import java.io.*;
 import java.math.*;
 import java.security.*;
