@@ -1,0 +1,21 @@
+//Question 1
+
+import java.util.Scanner;
+
+public class FunctnQues {
+
+    public static int Averageofthree(int d, int e, int f) {
+        return (d + e + f) / 3;
+    }
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your numbers : ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        System.out.println("The Average of the three is : " + Averageofthree(a, b, c));
+
+    }
+}
