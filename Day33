@@ -19,3 +19,60 @@ public class FunctnQues {
 
     }
 }
+
+// Question 2
+// import java.util.*;
+
+// public class FunctnQues {
+// public static boolean isEven(int a) {
+// if (a % 2 == 0) {
+// return true;
+// } else {
+// return false;
+// }
+// }
+
+// public static void main(String args[]) {
+// Scanner sc = new Scanner(System.in);
+// System.out.print("Enter the no. : ");
+// int b = sc.nextInt();
+
+// System.out.println(isEven(b));
+
+// }
+
+// }
+
+// Question 3
+/*
+ * import java.util.*;
+ * 
+ * public class FunctnQues {
+ * public static boolean Palindrome(int a) {
+ * int c = 0;
+ * int d = a;
+ * while (d != 0) {
+ * int b = d % 10;
+ * c = c * 10 + b; // storing rev nos.
+ * d = d / 10;
+ * }
+ * 
+ * if (a == c) {
+ * return true;
+ * } else {
+ * return false;
+ * }
+ * }
+ * 
+ * public static void main(String args[]) {
+ * Scanner sc = new Scanner(System.in);
+ * System.out.print("Enter your number : ");
+ * int x = sc.nextInt();
+ * 
+ * System.out.print(Palindrome(x));
+ * }
+ * 
+ * }
+ */
+
+// Question 4
