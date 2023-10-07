@@ -1,0 +1,28 @@
+// Question 4
+// Math functions in java
+
+// Question 5
+import java.util.*;
+
+public class FunctnQues {
+
+    public static int Addnum(int a) {
+        int c = 0;
+        int n = a;
+        while (n > 0) {
+            int b = n % 10;
+            c = c + b;
+            n = n / 10;
+        }
+        return c;
+    }
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter a number : ");
+        int x = sc.nextInt();
+
+        System.out.println(Addnum(x));
+    }
+
+}
