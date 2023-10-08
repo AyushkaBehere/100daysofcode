@@ -1,4 +1,6 @@
-import java.util.*;
+//Patterns 
+
+//import java.util.*;
 
 public class pattern1 {
     // public static void hollow_rectangle(int totRows, int totCols) {
