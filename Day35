@@ -113,6 +113,7 @@ public class pattern1 {
     }
 
     public static void main(String args[]) {
+
         // hollow_rectangle(10,7);
         // inverted_roated_half_pyramid(6);
         // inverted_half_pyramid_withNumbers(9);
