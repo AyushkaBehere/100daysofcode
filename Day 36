@@ -3,6 +3,7 @@ import java.util.*;
 
 public class pattern1 {
 
+
     // public static void solid_rhombus(int n) {
     // for (int i = 1; i <= n; i++) {
     // // spaces
