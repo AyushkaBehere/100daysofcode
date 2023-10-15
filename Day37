@@ -15,6 +15,7 @@
     // }
     // }
 
+
     public static void PalindromicPatternWithNums(int n) {
         // outer loop
         for (int i = 1; i <= n; i++) {
