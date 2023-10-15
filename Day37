@@ -37,6 +37,8 @@
         }
     }
 
+
+
     public static void main(String args[]) {
         // solid_rhombus(7);
         // hollow_rhombus(7);
