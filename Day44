@@ -1,0 +1,8 @@
+//TRAPPING RAINWATER PROBLEM
+import java.util.*;
+
+public class array {
+    public static int trappedRainwater(int height[]) {
+
+    }
+}
