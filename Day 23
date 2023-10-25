@@ -24,6 +24,8 @@ public class functions {
 
 }
 
+
+
 *****************//Find Binomial Coefficient**************
 import java.util.*;
 
