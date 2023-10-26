@@ -27,7 +27,6 @@
 
 
 
-
 //BINARY SEARCH CODE
 import java.util.*;
 
@@ -59,6 +58,7 @@ public class array {
         System.out.println("index for key is : " + binarySearch(numbers, key));
     }
 }
+
 
 
 //REVERSE AN ARRAY
