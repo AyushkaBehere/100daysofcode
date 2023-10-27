@@ -1,0 +1,24 @@
+// BEST TIME TO BUY & SELL STOCKS
+import java.util.*;
+
+public class array {
+    public static int BuyAndSellStocks(int prices[]) {
+        int buyPrice = Integer.MAX_VALUE;
+        int maxProfit = 0;
+
+        for (int i = 0; i < prices.length; i++) {
+            if (buyPrice < prices[i]) { // profit
+                int profit = prices[i] - buyPrice; // today's Profit
+                maxProfit = Math.max(maxProfit, profit);
+            } else {
+                buyPrice = prices[i];
+            }
+        }
+        return maxProfit;
+    } // TC = O(n)
+
+    public static void main(String args[]) {
+        int prices[] = { 7, 1, 5, 3, 6, 4 };
+        System.out.println(BuyAndSellStocks(prices));
+    }
+}
