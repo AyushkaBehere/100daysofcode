@@ -3,6 +3,7 @@
 import java.util.*;
 
 public class array {
+
     public static int BuyAndSellStocks(int prices[]) {
         int buyPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
