@@ -1,6 +1,5 @@
-//SELECTION SORT
-
 //SELECTION SORT CODE
+
 import java.util.*;
 
 public class BasicSorting {
