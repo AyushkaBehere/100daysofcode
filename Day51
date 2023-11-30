@@ -1,0 +1,27 @@
+
+//2D ARRAY QUES
+//Q1 printing no. of 7's in the 2D array
+import java.util.*;
+
+public class twoDarrayQues {
+
+    public static int NumberOfSevens(int matrix[][]) {
+        int Count = 0;
+
+        for (int row = 0; row < matrix.length; row++) {
+            for (int col = matrix[row].length - 1; col >= 0; col--) {
+                if (matrix[row][col] == 7) {
+                    Count++;
+                }
+            }
+        }
+        return Count;
+    }
+
+    public static void main(String[] args) {
+        int matrix[][] = { { 2, 3, 7, },
+                { 6, 8, 7 },
+                { 7, 7, 4 } };
+        System.out.println(NumberOfSevens(matrix));
+    }
+}
