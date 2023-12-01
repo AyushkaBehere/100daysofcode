@@ -22,28 +22,7 @@ public class twoDarrayQues {
     }
 }
 
-// QUES 2- Printing the sum of the nos in the second row of the "nums" array
-// import java.util.*;
 
-// public class twoDarrayQues {
-
-//     public static int SumOfNos(int nums[][]) {
-//         int sum = 0;
-
-//         for (int col = nums.length - 1; col >= 0; col--) {
-//             sum = sum + nums[1][col];
-//         }
-
-//         return sum;
-//     }
-
-//     public static void main(String[] args) {
-//         int[][] nums = { { 1, 4, 9, },
-//                 { 11, 4, 3 },
-//                 { 2, 2, 3 } };
-//         System.out.println(SumOfNos(nums));
-//     }
-// }
 
 //Ques 3- Program to find Transpose of a Matrix
 
