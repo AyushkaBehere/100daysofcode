@@ -21,3 +21,54 @@ public class twoDarrayQues {
         System.out.println(SumOfNos(nums));
     }
 }
+
+// QUES 2- Printing the sum of the nos in the second row of the "nums" array
+// import java.util.*;
+
+// public class twoDarrayQues {
+
+//     public static int SumOfNos(int nums[][]) {
+//         int sum = 0;
+
+//         for (int col = nums.length - 1; col >= 0; col--) {
+//             sum = sum + nums[1][col];
+//         }
+
+//         return sum;
+//     }
+
+//     public static void main(String[] args) {
+//         int[][] nums = { { 1, 4, 9, },
+//                 { 11, 4, 3 },
+//                 { 2, 2, 3 } };
+//         System.out.println(SumOfNos(nums));
+//     }
+// }
+
+//Ques 3- Program to find Transpose of a Matrix
+
+public class twoDarrayQues {
+
+    public static void SwappingRowstoCols(int[][] matrix) {
+        int row = matrix.length, cols = matrix[0].length;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < cols; j++) {
+                System.out.print("The original matrix is : " + matrix[i][j]);
+            }
+            System.out.println();
+        }
+
+        for (int i = 0; i < cols; i++) {
+            for (int j = 0; j < row; j++) {
+                System.out.print("The Transpose matrix is : " + matrix[j][i]);
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        int[][] matrix = { { 1, 2, 3 },
+                { 4, 5, 6 } };
+        System.out.print(SwappingRowstoCols(matrix));
+    }
+}
