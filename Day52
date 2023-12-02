@@ -25,29 +25,3 @@ public class twoDarrayQues {
 
 
 //Ques 3- Program to find Transpose of a Matrix
-
-public class twoDarrayQues {
-
-    public static void SwappingRowstoCols(int[][] matrix) {
-        int row = matrix.length, cols = matrix[0].length;
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < cols; j++) {
-                System.out.print("The original matrix is : " + matrix[i][j]);
-            }
-            System.out.println();
-        }
-
-        for (int i = 0; i < cols; i++) {
-            for (int j = 0; j < row; j++) {
-                System.out.print("The Transpose matrix is : " + matrix[j][i]);
-            }
-            System.out.println();
-        }
-    }
-
-    public static void main(String[] args) {
-        int[][] matrix = { { 1, 2, 3 },
-                { 4, 5, 6 } };
-        System.out.print(SwappingRowstoCols(matrix));
-    }
-}
