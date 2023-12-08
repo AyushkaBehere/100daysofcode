@@ -37,3 +37,36 @@ class Solution {
         System.out.println(solution.largestOddNumber(num3)); // Output: "35427"
     }
 }
+
+
+// import java.util.Scanner;
+// public class StringManipulation {
+//     public static String largestOddNumber(String num) {
+//         int z = 0;
+//         int n = num.length();
+//         int x = Integer.parseInt(num);
+
+//         if (x % 2 == 0) {
+//             for (int i = 0; i < n; i++) {
+//                 int c = Character.getNumericValue(num.charAt(i));
+//                 if (c % 2 == 1) {
+//                     z = Math.max(c, z);
+//                 }
+//           
+//             }
+//             return Integer.toString(z);
+//         } 
+        
+//         else 
+//         {
+//             return num; 
+//         }
+//     }
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter the string number:");
+//         String a = sc.nextLine();
+//         System.out.println(largestOddNumber(a));
+//     }
+// }
