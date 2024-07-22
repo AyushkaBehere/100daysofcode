@@ -11,11 +11,9 @@ class Solution {
                String temp1 = nm[i];
                nm[i]=nm[j];
                nm[j]=temp1;
-               }
-              
+               }             
 
-           }
-        
+           }        
          
         }
       return nm;  
