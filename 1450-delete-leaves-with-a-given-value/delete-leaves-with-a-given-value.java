@@ -12,14 +12,25 @@
  *         this.right = right;
  *     }
  * }
- */
-class Solution {
+ */class Solution {
     public TreeNode removeLeafNodes(TreeNode root, int target) {
-        if (root == null) return null;
+        if (root == null) {
+            return null;
+        }
         root.left = removeLeafNodes(root.left, target);
         root.right = removeLeafNodes(root.right, target);
-        if (root.left == null && root.right == null && root.val == target)
+        if (root.val == target && root.left == null && root.right == null) {
             return null;
+        }
         return root;
+    }
+
+    static void inorder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        inorder(root.left);
+        System.out.print(root.val + " ");
+        inorder(root.right);
     }
 }
