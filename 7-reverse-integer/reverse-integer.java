@@ -1,21 +1,38 @@
+// class Solution {
+//     public int reverse(int x) {
+//         int min = Integer.MIN_VALUE;
+//         int max = Integer.MAX_VALUE;       
+//         int sum = 0;
+//         int rev = 0;        
+        
+//         while( x != 0){
+//               sum =  x % 10;
+//               rev = rev*10+sum;
+//               x = x/10;
+//         }
+              
+//         if( rev > max || rev < min ) {
+//             return 0;
+//         } else {
+//             return rev;
+//         }  
+//     }     
+// }
 class Solution {
     public int reverse(int x) {
-        int num = Math.abs(x);  // Original number ka absolute value nikala
-        
-        int rev = 0;  // Reversed number
-        
-        while (num != 0) {
-            int ld = num % 10;  // Last digit nikala
-            
-            // Overflow check
-            if (rev > (Integer.MAX_VALUE - ld) / 10) {
-                return 0;  // Agar overflow hua, toh 0 return kardo
+        long reverse = 0;
+        int temp;
+
+        while (x != 0) {
+            temp = x % 10;
+            reverse = reverse * 10 + temp;
+            x = x / 10;
+
+            if (reverse > Integer.MAX_VALUE || reverse < Integer.MIN_VALUE) {
+                return 0;
             }
-            
-            rev = rev * 10 + ld;  // Reverse mein digit ko add kiya
-            num = num / 10;  // Last digit hata diya, next iteration ke liye
         }
-        
-        return (x < 0) ? (-rev) : rev;  // Original number ke sign ke hisaab se result diya
+
+        return (int)reverse;
     }
 }
