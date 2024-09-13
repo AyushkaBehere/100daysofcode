@@ -1,48 +1,72 @@
+// class Solution {
+//     public List<List<Integer>> threeSum(int[] nums) {
+//         List<List<Integer>> arr = new ArrayList<>(); 
+//         int n = nums.length;
+//         Arrays.sort(nums);
+        
+//         for (int i = 0; i < n - 2; i++) {
+//             // Skip duplicates for the first element
+//             if (i > 0 && nums[i] == nums[i - 1]) continue;
+
+//             for (int j = i + 1; j < n - 1; j++) {
+//                 // Skip duplicates for the second element
+//                 if (j > i + 1 && nums[j] == nums[j - 1]) continue;
+                
+//                 for (int k = j + 1; k < n; k++) {
+//                     // Skip duplicates for the third element
+//                     if (k > j + 1 && nums[k] == nums[k - 1]) continue;
+
+//                     if (nums[i] + nums[j] + nums[k] == 0) {
+//                         // Add triplet as a list
+//                         arr.add(Arrays.asList(nums[i], nums[j], nums[k]));
+//                     }
+//                 }
+//             }
+//         }
+//         return arr; // Return a list of lists of integers
+//     }
+// }
+
+
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-
-        // Sort the array
+        List<List<Integer>> result = new ArrayList<>(); 
         Arrays.sort(nums);
-
-        for (int i = 0; i < nums.length - 2; i++) {
-            // Skip duplicate elements for i
+        int n = nums.length;
+        for (int i = 0; i < n - 2; i++) { // Loop through the array
+            // Skip duplicate values for the first element
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
-
-            int j = i + 1;
-            int k = nums.length - 1;
-
-            while (j < k) {
-                int sum = nums[i] + nums[j] + nums[k];
-
-                if (sum == 0) {
-                    // Found a triplet with zero sum
-                    ans.add(Arrays.asList(nums[i], nums[j], nums[k]));
-
-                    // Skip duplicate elements for j
-                    while (j < k && nums[j] == nums[j + 1]) {
-                        j++;
+            
+            int left = i + 1;
+            int right = n - 1;
+            
+            while (left < right) { // Two-pointer approach
+                int sum = nums[i] + nums[left] + nums[right];
+                
+                if (sum == 0) { // Found a triplet
+                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                    
+                    // Skip duplicates for the second element
+                    while (left < right && nums[left] == nums[left + 1]) {
+                        left++;
                     }
-
-                    // Skip duplicate elements for k
-                    while (j < k && nums[k] == nums[k - 1]) {
-                        k--;
+                    // Skip duplicates for the third element
+                    while (left < right && nums[right] == nums[right - 1]) {
+                        right--;
                     }
-
-                    // Move the pointers
-                    j++;
-                    k--;
-                } else if (sum < 0) {
-                    // Sum is less than zero, increment j to increase the sum
-                    j++;
-                } else {
-                    // Sum is greater than zero, decrement k to decrease the sum
-                    k--;
+                    
+                    // Move both pointers after storing the triplet
+                    left++;
+                    right--;
+                } else if (sum < 0) { // If sum is less than 0, increment left pointer
+                    left++;
+                } else { // If sum is greater than 0, decrement right pointer
+                    right--;
                 }
             }
         }
-        return ans;
+        return result; // Return the final list of triplets
     }
 }
