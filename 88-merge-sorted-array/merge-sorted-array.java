@@ -2,7 +2,7 @@ class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         ArrayList<Integer> arr = new ArrayList<>();
         if(n == 0) {
-            return;
+            return ;
         }
 
         for(int i = 0; i<m; i++){
@@ -17,6 +17,6 @@ class Solution {
         for(int i = 0; i<arr.size(); i++) {
             nums1[i] = arr.get(i);
         }
-        Arrays.sort(nums1);
+       Arrays.sort(nums1);
     }
 }
